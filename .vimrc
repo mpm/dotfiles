@@ -89,3 +89,19 @@ nnoremap <M-7> 7gt
 nnoremap <M-8> 8gt
 nnoremap <M-9> 9gt
 nnoremap <M-0> 10gt
+
+map <C-t> tabnew
+
+" show line numbers
+set number
+set nowrap
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+set cursorline
